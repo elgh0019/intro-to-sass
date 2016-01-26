@@ -1,0 +1,17 @@
+/* Scss Document */
+/* this file imports all your partials to be compiled into one stylesheet, which you can actually attach to your html.
+
+All the files that are prefixed with an underscore "_name-of-file.scss" are called partials - meaning that their css isnt compile unlessit's imported into an unprefixed .scss file
+
+ Example:
+ 
+ @import 'name-of-file';
+*/  
+ 
+  @import 'base';
+  @import 'mixins';
+  @import 'components/main';
+
+ 
+ 
+
